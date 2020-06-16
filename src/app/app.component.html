@@ -1,4 +1,9 @@
 <div class="app-container">
-  <app-header></app-header>
+  <app-header
+    [user]="user$ | async"
+    [loggedIn]="loggedIn$ | async"
+
+    (logout$)="onLogout()"
+  ></app-header>
   <router-outlet></router-outlet>
 </div>

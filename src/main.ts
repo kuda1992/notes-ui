@@ -10,6 +10,9 @@ if (environment.production) {
   enableProdMode();
 }
 
+
+(window as any).global = window;
+
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,

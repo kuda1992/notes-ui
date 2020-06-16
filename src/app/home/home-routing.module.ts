@@ -8,14 +8,6 @@ const routes: Routes = [
   {
     path: '',
     component: HomeContainerComponent
-  },
-  {
-    path: '404',
-    component: NotFoundComponent,
-  },
-  {
-    path: '**',
-    redirectTo: '/404'
   }
 ];
 

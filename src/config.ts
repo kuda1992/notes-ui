@@ -11,6 +11,6 @@ export const config = {
     REGION: 'eu-west-2',
     USER_POOL_ID: 'eu-west-2_4pXycNW0M',
     APP_CLIENT_ID: '3447etghggpfcvkmo9ljagov27',
-    IDENTITY_POOL_ID: 'eu-west-2_4pXycNW0M'
+    IDENTITY_POOL_ID: 'eu-west-2:58db94b7-dd9b-41b7-8188-146b7035f16c'
   }
 };

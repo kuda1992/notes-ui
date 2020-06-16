@@ -1,0 +1,31 @@
+.navbar {
+
+  .logo{
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+
+  .navbar-signin, form {
+    margin-left: auto;
+  }
+
+
+  .navbar-nav {
+    flex-direction: row;
+    margin-right: auto;
+  }
+  ul {
+    width: 100%;
+
+    li {
+      display: inline-block;
+      padding: 1rem;
+    }
+  }
+
+
+}
